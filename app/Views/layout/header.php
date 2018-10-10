@@ -12,15 +12,15 @@
 	<title>Vendas de produtos e seus impostos</title>
 
 	<!-- Bootstrap Core CSS -->
-	<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://ec2-52-15-180-127.us-east-2.compute.amazonaws.com/RodrigoImpostos/assets/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- MetisMenu CSS -->
-	<link href="/assets/css/metisMenu.min.css" rel="stylesheet">
+	<link href="http://ec2-52-15-180-127.us-east-2.compute.amazonaws.com/RodrigoImpostos/assets/css/metisMenu.min.css" rel="stylesheet">
 
 	<!-- Custom CSS -->
-	<link href="/assets/css/sb-admin-2.min.css" rel="stylesheet">
-	<link href="/assets/css/jquery-ui.min.css" rel="stylesheet">
-	<link href="/assets/css/jquery-ui.theme.min.css" rel="stylesheet">
+	<link href="http://ec2-52-15-180-127.us-east-2.compute.amazonaws.com/RodrigoImpostos/assets/css/sb-admin-2.min.css" rel="stylesheet">
+	<link href="http://ec2-52-15-180-127.us-east-2.compute.amazonaws.com/RodrigoImpostos/assets/css/jquery-ui.min.css" rel="stylesheet">
+	<link href="http://ec2-52-15-180-127.us-east-2.compute.amazonaws.com/RodrigoImpostos/assets/css/jquery-ui.theme.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
