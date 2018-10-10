@@ -1,0 +1,16 @@
+{
+    "name": "rodri/impostos-produtos",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rodrigo Müller",
+            "email": "rodrigo_hmuller@hotmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "app/"}
+    }
+}
