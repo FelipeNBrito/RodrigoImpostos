@@ -8,7 +8,7 @@ use App\Controllers\TipoController;
 
 $parametros = $_SERVER['QUERY_STRING'];
 
-error_log(print_r($_SERVER['QUERY_STRING'], 1));
+error_log(print_r($_SERVER, 1));
 
 $path = explode("/", $parametros);
 
