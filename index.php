@@ -6,11 +6,13 @@ use App\Controllers\VendaController;
 use App\Controllers\ProdutosController;
 use App\Controllers\TipoController;
 
-$parametros = $_SERVER['QUERY_STRING'];
+$parametros = $_SERVER['REQUEST_URI'];
 
 error_log(print_r($_SERVER, 1));
 
 $path = explode("/", $parametros);
+
+$path = str_replace("/RodrigoImpostos/", "/", $path);
 
 $vendaController = new VendaController();
 $produtoController = new ProdutosController();
