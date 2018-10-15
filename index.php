@@ -8,11 +8,7 @@ use App\Controllers\TipoController;
 
 $parametros = $_SERVER['REQUEST_URI'];
 
-error_log(print_r($_SERVER, 1));
-
 $path = explode("/", $parametros);
-
-$path = str_replace("/RodrigoImpostos/", "/", $path);
 
 $vendaController = new VendaController();
 $produtoController = new ProdutosController();
@@ -22,8 +18,8 @@ if(count($path) === 0 || count($path) === 1) {
 	$vendaController->listarVendas();
 }
 
-$controller = $path[1];
-$action = $path[2];
+$controller = $_REQUEST["controller"];
+$action = $_REQUEST["action"];
 
 
 
