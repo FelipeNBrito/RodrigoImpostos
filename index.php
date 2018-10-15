@@ -8,6 +8,10 @@ use App\Controllers\TipoController;
 
 $parametros = $_SERVER['QUERY_STRING'];
 
+error_log(print_r($_SERVER,1));
+var_dump($_SERVER);
+echo $_SERVER;
+
 $path = explode("/", $parametros);
 
 $vendaController = new VendaController();
